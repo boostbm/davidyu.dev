@@ -38,7 +38,14 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
+                  {paragraphOne || 'Web Developer, B-Boy (Break Dancer), Jiu Jitsu Practitioner.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo ||
+                    'After teaching English in South Korea for 11 years, I have returned back home with a new set of goals to live my life to the fullest.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo ||
                     'As a Web Developer, I strive to deliver cutting edge features through aesthetic and intuitive user interfaces. The ideas of continual growth and improvement excite me, whether that means constantly learning or even solving problems in different ways.'}
                 </p>
                 <p className="about-wrapper__info-text">

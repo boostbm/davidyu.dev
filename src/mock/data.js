@@ -29,29 +29,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Tune & Flying Home Studio',
+    info: 'Tune & Flying Home Studio is a personal website for Architecture and Interior Design services.',
+    info2: 'GATSBY / REACT, STYLED COMPONENTS, GRAPHQL.',
+    url: 'https://flyinghomestudio.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project2.jpg',
+    title: 'Pure Func',
+    info: 'Pure Func is a modern web development agency committed to making blazing fast websites. From static e-commerce sites for small companies to full-stack solutions for large organizations, we offer development solutions of all shapes and sizes. Above all else, we believe in crafting websites built for today’s fast-paced, global economy by leveraging cutting-edge technology and emphasizing international compatibility.',
+    info2: 'VITE / REACT, SASS, GRAPHQL',
+    url: 'https://purefunc.io/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project3.jpg',
+    title: 'Code My Menu',
+    info: 'Code My Menu Offers contactless solutions from the safety of your phone, smart analytics to help you optimize engagement, and limitless design options, Code My Menu connects your offline audience to all your online experiences.',
+    info2: 'GATSBY / REACT, STYLED COMPONENTS, GRAPHQL.',
+    url: 'https://codemymenu.com/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
