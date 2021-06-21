@@ -58,14 +58,7 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: linear-gradient(
-        to right top,
-        #616161,
-        #494949,
-        #323232,
-        #1c1c1c,
-        #000000
-      );
+      -webkit-text-fill-color: transparent;
     }
 
     &::after {
