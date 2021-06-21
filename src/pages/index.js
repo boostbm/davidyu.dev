@@ -15,6 +15,7 @@ export default () => {
         <title>{title || 'David Yu Portfolio'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'David Yu Portfolio'} />
+        <link rel="canonical" href="http://davidyu.dev" />
       </Helmet>
       <App />
     </>
