@@ -33,7 +33,7 @@
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
-    background-image: none;
+    background-image: linear-gradient(to right top, #616161, #494949, #323232, #1c1c1c, #000000);
     border: 2px solid linear-gradient(to right top, #616161, #494949, #323232, #1c1c1c, #000000);
     -webkit-text-fill-color: linear-gradient(
       to right top,
