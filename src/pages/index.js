@@ -23,7 +23,6 @@ export default () => {
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'David Yu Portfolio'} />
         <html lang="en" />
-        <meta name="description" content={description} />
         <meta name="image" content={image} />
         <meta name="robots" content={robots} />
         <link rel="canonical" href="/" />
