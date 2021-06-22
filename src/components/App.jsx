@@ -4,7 +4,7 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import { PortfolioProvider } from '../context/context';
 
