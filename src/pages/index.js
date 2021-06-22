@@ -13,7 +13,6 @@ export default () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{title || 'David Yu Portfolio'}</title>
-        <link rel="canonical" href="http://www.davidyu.dev" />
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'David Yu Portfolio'} />
       </Helmet>
@@ -21,4 +20,3 @@ export default () => {
     </>
   );
 };
-
