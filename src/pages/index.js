@@ -6,11 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description, image } = headData;
-  const siteName = "David Yu's Website";
-  const siteUrl = 'https://www.davidyu.dev';
-  const twitterId = '/';
-
+  const { title, lang, description, image, siteName, siteUrl, twitterId } = headData;
   return (
     <>
       <Helmet>
