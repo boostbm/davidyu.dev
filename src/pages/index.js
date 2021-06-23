@@ -33,6 +33,7 @@ export default () => {
         <meta name="twitter:site" content={twitterId} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
+        <link rel="preconnect" href="https://www.davidyu.dev" />
       </Helmet>
       <App />
     </>
