@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
+  const { title, lang, description, image } = headData;
 
   return (
     <>
@@ -15,6 +15,7 @@ export default () => {
         <title>{title || 'David Yu Portfolio'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'David Yu Portfolio'} />
+        <meta name="image" content={image} />
         <html lang="en" />
       </Helmet>
       <App />

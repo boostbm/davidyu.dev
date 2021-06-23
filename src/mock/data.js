@@ -5,6 +5,7 @@ export const headData = {
   title: '', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
+  image: 'images/preview.png',
 };
 
 // HERO DATA
