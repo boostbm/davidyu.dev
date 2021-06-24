@@ -6,14 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description, image, siteName, siteUrl, twitterId } = headData;
+  const { title, lang, description, image, siteName, siteUrl } = headData;
+
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>{title || 'David Yu Portfolio'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || "David Yu's Portfolio"} />
+        <meta name="description" content={description} />
         <meta name="image" content={image} />
         <html lang="en" />
         {/* Social */}
@@ -29,11 +30,8 @@ export default () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
-        <meta name="twitter:creator" content={twitterId} />
-        <meta name="twitter:site" content={twitterId} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
-        <link rel="preconnect" href="https://www.davidyu.dev" />
       </Helmet>
       <App />
     </>

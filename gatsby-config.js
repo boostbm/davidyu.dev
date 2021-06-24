@@ -1,13 +1,14 @@
 module.exports = {
-    siteMetadata: {
-      siteTitle: "David Yu's Website",
-      siteName: "David Yu's Portfolio",
-      siteDescription: "",
-      socialDescription: "",
-      socialTitle: "Code My Menu",
-      siteUrl: "https://www.davidyu.dev",
-      siteImage: "images/preview.png",
-      twitterId: "/",
+  siteMetadata: {
+    siteTitle: "David Yu's Website",
+    siteName: "David Yu's Portfolio",
+    siteDescription: ``,
+    socialDescription: ``,
+    socialTitle: `Portfolio`,
+    siteUrl: `https://www.davidyu.dev`,
+    siteImage: `images/preview.png`,
+    twitterId: `/`,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -42,4 +43,4 @@ module.exports = {
       },
     },
   ],
-};
+}
