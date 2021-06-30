@@ -6,7 +6,7 @@ export const headData = {
   lang: '', // e.g: en, es, fr, jp
   description: "David Yu's Portfolio Website.", // e.g: Welcome to my website
   image: 'https://davidyu.dev/static/adc1498a16897494283ef420877aa787/89f4f/profile.jpg',
-  siteTitle: "Welcome to David Yu's Website.",
+  siteTitle: "Welcome to David Yu's Website",
   siteName: "David Yu's Website.",
   socialTitle: `Portfolio`,
   siteUrl: `https://www.davidyu.dev`,
